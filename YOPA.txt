@@ -10,14 +10,32 @@
    [patch files (7zip)]
    -- empty stuff --
    [installation portion (7zip)]
+   -- empty stuff --
+   [legacy support (zip)] //optional
 
 2. plist stuff
 -----------------
+name - self-explanatory
+cracker - cracker
 md5 - md5sum of the existing installation portion
+uniqueid - a "unique" id (?)
+
 patch_md5 - expected md5 once patch is applied
 patch_size - patch size
 patch_offset - offset of the segment
+
 install_md5 - md5sum of new installation portion
 install_size - new install size
 install_offset - offset of installation portion
 
+legacy_md5 - md5sum of IPA
+legacy_size - size of IPA
+legacy_offset - size of IPA
+
+3. download process
+---------------------
+downloader will first download the header and parse the plist
+if an update is possible, it'll download the patch files and complete
+if an update isn't possible, it'll continue to download the patch files but not save it and only save the installation portion
+
+if the user is using 
