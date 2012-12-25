@@ -1,8 +1,0 @@
-Origin: FAULTYCLONES Repo
-Label: FAULTYCLONES Repo
-Suite: stable
-Version: 1.0
-Codename: hyuna
-Architectures: iphoneos-arm
-Components: main
-Description: Official FAULTYCLONES Cydia Repository
