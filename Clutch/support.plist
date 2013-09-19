@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CreditFile</key>
+	<dict>
+		<key>default</key>
+		<string>NO</string>
+		<key>support</key>
+		<string>Do you want a credit file in the IPA?</string>
+	</dict>
+	<key>FilenameCredit</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want your name in the IPA&apos;s name?</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>CrackerName</key>
+	<dict>
+		<key>default</key>
+		<string>ClutchCracker123</string>
+		<key>support</key>
+		<string>What&apos;s your name?</string>
+	</dict>
+	<key>CheckMetadata</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want to check metadata</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>RemoveMetadata</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>Do you want to remove metadata</string>
+	</dict>
+	<key>ListWithDisplayName</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want a show the application display name on lists?</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>NumberBasedMenu</key>
+	<dict>
+		<key>default</key>
+		<string>NO</string>
+		<key>support</key>
+		<string>Do you want a number based menu?</string>
+	</dict>
+	<key>CheckMinOS</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want to check minimum OS</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>VerboseLogging</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>Do you want to enable verbose logging</string>
+	</dict>
+	<key>ProgressBar</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>Do you want to show progress bar</string>
+	</dict>
+	<key>MetadataEmail</key>
+	<dict>
+		<key>default</key>
+		<string>jony.ive@apple.com</string>
+		<key>support</key>
+		<string>What email should we patch in metadata?</string>
+	</dict>
+	<key>MetadataPurchaseDate</key>
+	<dict>
+		<key>enabled</key>
+		<string>NO</string>
+		<key>default</key>
+		<date>2009-08-26T19:12:18Z</date>
+	</dict>
+</dict>
+</plist>
