@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Version</key>
-	<string>1.3</string>
+	<string>1.3.1</string>
 	<key>CompressionLevel</key>
 	<dict>
 		<key>support</key>
