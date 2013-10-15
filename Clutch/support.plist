@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Version</key>
+	<string>1.3</string>
 	<key>CompressionLevel</key>
 	<dict>
 		<key>support</key>
@@ -61,7 +63,7 @@
 	<key>CheckMinOS</key>
 	<dict>
 		<key>support</key>
-		<string>Do you want to check minimum OS</string>
+		<string>Do you want to check minimum OS? (adds minimum OS version to file name)</string>
 		<key>default</key>
 		<string>NO</string>
 	</dict>
