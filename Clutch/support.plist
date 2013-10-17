@@ -60,13 +60,6 @@
 		<key>support</key>
 		<string>Do you want a number based menu?</string>
 	</dict>
-	<key>CheckMinOS</key>
-	<dict>
-		<key>support</key>
-		<string>Do you want to check minimum OS? (adds minimum OS version to file name)</string>
-		<key>default</key>
-		<string>NO</string>
-	</dict>
 	<key>VerboseLogging</key>
 	<dict>
 		<key>default</key>
