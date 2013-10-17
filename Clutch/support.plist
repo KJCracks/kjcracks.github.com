@@ -60,6 +60,13 @@
 		<key>support</key>
 		<string>Do you want a number based menu?</string>
 	</dict>
+	<key>CheckMinOS</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want to check minimum OS? (adds minimum OS version to file name)</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
 	<key>VerboseLogging</key>
 	<dict>
 		<key>default</key>
@@ -80,13 +87,6 @@
 		<string>jony.ive@apple.com</string>
 		<key>support</key>
 		<string>What email should we patch in metadata?</string>
-	</dict>
-	<key>MetadataPurchaseDate</key>
-	<dict>
-		<key>enabled</key>
-		<string>NO</string>
-		<key>default</key>
-		<date>2009-08-26T19:12:18Z</date>
 	</dict>
 </dict>
 </plist>
