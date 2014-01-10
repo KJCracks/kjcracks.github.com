@@ -75,7 +75,7 @@
 	<key>IPADirectory</key>
 	<dict>
 		<key>default</key>
-		<string>/var/root/Documents/Cracked</string>
+		<string>/User/Documents/Cracked</string>
 		<key>support</key>
 		<string>Where do you want your IPAs to be placed?</string>
 	</dict>
