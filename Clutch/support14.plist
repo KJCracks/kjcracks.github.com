@@ -72,6 +72,13 @@
 		<key>support</key>
 		<string>Where do you want your IPAs to be placed?</string>
 	</dict>
+	<key>UseNativeZip</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>Do you want to use native zipping? (slightly slower)</string>
+	</dict>
 	<key>MetadataPurchaseDate</key>
 	<dict>
 		<key>enabled</key>
