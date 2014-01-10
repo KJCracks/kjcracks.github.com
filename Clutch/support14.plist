@@ -44,6 +44,13 @@
 		<key>default</key>
 		<string>NO</string>
 	</dict>
+	<key>CreditFile</key>
+	<dict>
+		<key>support</key>
+		<string>Do you want a credit file?</string>
+		<key>default</key>
+		<string>YES</string>
+	</dict>
 	<key>NumberBasedMenu</key>
 	<dict>
 		<key>default</key>
