@@ -40,7 +40,7 @@
 	<key>ListWithDisplayName</key>
 	<dict>
 		<key>support</key>
-		<string>Do you want a show the application display name on lists?</string>
+		<string>Do you want a show the application display name on lists? (use directory if you want to use the app directory)</string>
 		<key>default</key>
 		<string>NO</string>
 	</dict>
