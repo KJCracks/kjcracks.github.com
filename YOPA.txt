@@ -1,36 +1,40 @@
 .YOPA format
 
-1. Structure
+1. File Structure
 ----------------
-   #  header #
-   [offset of installation portion]
-   [10kb plist]
-   #  header #
-   -- empty stuff --
-   [patch files (7zip)]
-   -- empty stuff --
-   [installation portion (7zip)]
-   -- empty stuff --
-   [legacy support (zip)] //optional
+  [7zip stuff]
+  ...
+  [patch information]
+  [actual patch package]
+  ...
+  [header info]
+ 
 
-2. plist stuff
+2. Header Information
 -----------------
-name - self-explanatory
-cracker - cracker
-md5 - md5sum of the existing installation portion
-uniqueid - a "unique" id (?)
+struct YOPA_header {
+  	uint32_t supported_archs[10];
+	fpos_t patch_offsets[50];
+	int package_version;
+	char package_signature;
+  	char cracker_name[100];
+	char cracker_message[4096];
+	
+}
 
-patch_md5 - expected md5 once patch is applied
-patch_size - patch size
-patch_offset - offset of the segment
+package_signature - unique signature of this package
+cracker_name - self explainatory
+cracker_message - message that will be presented to the user upon installation
+supported_archs - supported architectures of app
 
-install_md5 - md5sum of new installation portion
-install_size - new install size
-install_offset - offset of installation portion
+3. Patch Information
+--------------------
+struct YOPA_patch {
+	char old_package_signature;
+	int old_package_version;
+	int patch_size;
+}
 
-legacy_md5 - md5sum of IPA
-legacy_size - size of IPA
-legacy_offset - size of IPA
 
 3. download process
 ---------------------
