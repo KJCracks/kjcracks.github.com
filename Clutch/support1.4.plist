@@ -5,7 +5,7 @@
 	<key>UseOverdrive</key>
 	<dict>
 		<key>default</key>
-		<string>YES</string>
+		<true/>
 		<key>support</key>
 		<string>Do you want to include Overdrive in your cracks?</string>
 	</dict>
@@ -14,12 +14,12 @@
 		<key>support</key>
 		<string>What do you want the compression level to be? Use -1 for default compression</string>
 		<key>default</key>
-		<string>-1</string>
+		<integer>-1</integer>
 	</dict>
 	<key>CrackerName</key>
 	<dict>
 		<key>default</key>
-		<string>ClutchCracker123</string>
+		<string>Steve.Jobs</string>
 		<key>support</key>
 		<string>What&apos;s your name?</string>
 	</dict>
@@ -28,33 +28,33 @@
 		<key>support</key>
 		<string>Do you want to check metadata</string>
 		<key>default</key>
-		<string>NO</string>
+		<false/>
 	</dict>
 	<key>RemoveMetadata</key>
 	<dict>
 		<key>default</key>
-		<string>YES</string>
+		<true/>
 		<key>support</key>
 		<string>Do you want to remove metadata</string>
 	</dict>
 	<key>ListWithDisplayName</key>
 	<dict>
 		<key>support</key>
-		<string>Do you want a show the application display name on lists? (use directory if you want to use the app directory)</string>
+		<string>Do you want a show the application display name on lists?</string>
 		<key>default</key>
-		<string>NO</string>
+		<false/>
 	</dict>
 	<key>CreditFile</key>
 	<dict>
 		<key>support</key>
 		<string>Do you want a credit file?</string>
 		<key>default</key>
-		<string>YES</string>
+		<true/>
 	</dict>
 	<key>NumberBasedMenu</key>
 	<dict>
 		<key>default</key>
-		<string>NO</string>
+		<false/>
 		<key>support</key>
 		<string>Do you want a number based menu?</string>
 	</dict>
@@ -63,12 +63,12 @@
 		<key>support</key>
 		<string>Do you want to check minimum OS? (adds minimum OS version to file name)</string>
 		<key>default</key>
-		<string>NO</string>
+		<false/>
 	</dict>
 	<key>MetadataEmail</key>
 	<dict>
 		<key>default</key>
-		<string>jony.ive@apple.com</string>
+		<string>steve.rim@jobs.com</string>
 		<key>support</key>
 		<string>What email should we patch in metadata?</string>
 	</dict>
@@ -82,14 +82,14 @@
 	<key>UseNativeZip</key>
 	<dict>
 		<key>default</key>
-		<string>YES</string>
+		<true/>
 		<key>support</key>
 		<string>Do you want to use native zipping? (slightly slower)</string>
 	</dict>
 	<key>MetadataPurchaseDate</key>
 	<dict>
 		<key>enabled</key>
-		<string>NO</string>
+		<false/>
 		<key>default</key>
 		<date>2009-08-26T19:12:18Z</date>
 	</dict>
