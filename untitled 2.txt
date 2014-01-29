@@ -1,0 +1,7 @@
+var images = ["http://static3.wikia.nocookie.net/__cb20130103074705/mlp/images/b/be/Rainbow_Dash_performing_Sonic_Rainboom_S01E16.png", "http://fc04.deviantart.net/fs70/i/2012/241/b/3/rainbow_dash___dash_with_it_by_mysteriouskaos-d5cu0zq.png", http://static5.businessinsider.com/image/51670d7a6bb3f7cc1f000008/it-looks-like-kim-jong-un-is-taking-a-step-back-from-the-brink.jpg];
+
+$(document).ready(function() {
+	$('#Image1_img').hover(function() {
+
+	});
+});
