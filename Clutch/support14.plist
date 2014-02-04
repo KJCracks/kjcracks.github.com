@@ -26,7 +26,7 @@
 	<key>CheckMetadata</key>
 	<dict>
 		<key>support</key>
-		<string>Do you want to check metadata</string>
+		<string>Do you want to check iTunesMetadata</string>
 		<key>default</key>
 		<string>NO</string>
 	</dict>
@@ -35,7 +35,7 @@
 		<key>default</key>
 		<string>YES</string>
 		<key>support</key>
-		<string>Do you want to remove metadata</string>
+		<string>Do you want to remove iTunesMetadata</string>
 	</dict>
 	<key>ListWithDisplayName</key>
 	<dict>
@@ -91,7 +91,7 @@
 		<key>enabled</key>
 		<string>NO</string>
 		<key>default</key>
-		<date>2009-08-26T19:12:18Z</date>
+		<integer>1251313938</integer>
 	</dict>
 </dict>
 </plist>
