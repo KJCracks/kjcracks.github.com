@@ -1,0 +1,9 @@
+Origin: http://kjcracks.github.io
+Label: KJCracks Repo
+Suite: stable
+Version: 1.0
+Codename: stable
+Architectures: darwin-arm
+Components: main
+Descriptoion: KJCracks Repo
+
