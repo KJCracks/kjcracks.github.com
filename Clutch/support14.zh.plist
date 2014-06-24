@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UseOverdrive</key>
+	<dict>
+		<key>default</key>
+		<string>NO</string>
+		<key>support</key>
+		<string>要在IPA增加Overdrive吗？(需要Overdrive文件）</string>
+	</dict>
+	<key>CompressionLevel</key>
+	<dict>
+		<key>support</key>
+		<string>请选择压缩级别, -1 为使用默认</string>
+		<key>default</key>
+		<string>-1</string>
+	</dict>
+	<key>CrackerName</key>
+	<dict>
+		<key>default</key>
+		<string>wu_ming</string>
+		<key>support</key>
+		<string>你的名字？</string>
+	</dict>
+	<key>CheckMetadata</key>
+	<dict>
+		<key>support</key>
+		<string>需要检查元数据吗?</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>RemoveMetadata</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>需要移除元数据吗?</string>
+	</dict>
+	<key>ListWithDisplayName</key>
+	<dict>
+		<key>support</key>
+		<string>要在列表上显示程序的显示名称吗?</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>CreditFile</key>
+	<dict>
+		<key>support</key>
+		<string>是否在IPA中加入作者信息?</string>
+		<key>default</key>
+		<string>YES</string>
+	</dict>
+	<key>NumberBasedMenu</key>
+	<dict>
+		<key>default</key>
+		<string>NO</string>
+		<key>support</key>
+		<string>是否使用数字菜单?</string>
+	</dict>
+	<key>AddMinOS</key>
+	<dict>
+		<key>support</key>
+		<string>是否检测最低版本要求? (并在文件名中标出)</string>
+		<key>default</key>
+		<string>NO</string>
+	</dict>
+	<key>MetadataEmail</key>
+	<dict>
+		<key>default</key>
+		<string>jony.ive@apple.com</string>
+		<key>support</key>
+		<string>元数据中替换购买者email为?</string>
+	</dict>
+	<key>IPADirectory</key>
+	<dict>
+		<key>default</key>
+		<string>/User/Documents/Cracked</string>
+		<key>support</key>
+		<string>IPA 设置在那里？</string>
+	</dict>
+	<key>UseNativeZip</key>
+	<dict>
+		<key>default</key>
+		<string>YES</string>
+		<key>support</key>
+		<string>要使用内置的软件吗？</string>
+	</dict>
+	<key>MetadataPurchaseDate</key>
+	<dict>
+		<key>enabled</key>
+		<string>NO</string>
+		<key>default</key>
+		<integer>1251313938</integer>
+	</dict>
+</dict>
+</plist>
